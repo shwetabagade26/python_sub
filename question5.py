@@ -6,7 +6,7 @@ def is_prime(num):
             break
     else:
         # print(num)
-        list1.append(num)
+        yield num
         
 
 for k in range(3,100):
