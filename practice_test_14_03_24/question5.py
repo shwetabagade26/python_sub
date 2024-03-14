@@ -1,0 +1,1 @@
+# round values for each item present in the list using map function

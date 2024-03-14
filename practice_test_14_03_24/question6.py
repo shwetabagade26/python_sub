@@ -1,0 +1,2 @@
+# given a list of strings reprseneting the file paths .each file path consists of directories separated by slashes / 
+# write a function to count the frequency of each directory and return the directory hierarchy as a nested dictionary
