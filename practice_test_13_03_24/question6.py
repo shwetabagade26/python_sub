@@ -15,7 +15,7 @@ ls = list(prime_num_list)
 print(ls)
 
 
-# understanc how filter func is used and how for loops can be reduced
+# understand how filter func is used and how for loops can be reduced
 
 
 
