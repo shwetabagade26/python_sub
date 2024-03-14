@@ -11,6 +11,6 @@ def pythatrip(terms):
     print(ls)
                        
 
-pythatrip(15)
+pythatrip(30)
 
 

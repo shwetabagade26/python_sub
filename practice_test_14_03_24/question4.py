@@ -6,6 +6,7 @@ def factorial(N):
         result *= i
         yield result
 
-for k in factorial(5):
+terms = int(input("Enter the number of terms :  "))
+for k in factorial(terms):
     print(k)
 
