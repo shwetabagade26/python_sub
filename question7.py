@@ -1,6 +1,6 @@
 # manage a dictionary of student records for a school
 TF = 1
-data_dict = {1:['smith','computer',[23,45,65,77]]}
+data_dict = {}
 l_marks = []
 
 while True:
@@ -72,8 +72,9 @@ while True:
         print("Student Info  updated!!")
 
     elif choice == 4: #retrive
-        roll_num =  roll_num = int(input("Ente the roll number to fetch the data:  "))
-        print(data_dict.items())
+        roll_num =  roll_num = int(input("Enter the roll number to fetch the data:  "))
+        # print(data_dict.items())
+        print("\t\t{",roll_num,data_dict.get(roll_num),"}")
 
     elif choice == 5: #display
         print("\n\t\t",data_dict,"\t\t\n")
