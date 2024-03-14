@@ -11,21 +11,26 @@ file_paths = [
 
 
 def hierarchy(path):
+    '''
+    Not Done
+    '''
     file_dict = {}
-    frequency = []
     for files in path:
         files = files.split("/")
         files.pop(0)
-        print(files)
+        # print(files)
         for file in files:
                 if file.isalnum():
                     pass
                 else:
-                     frequency.append(1)
-                     print(sum(frequency))
-    print(file_dict)
+                     frequency = 1
+                    #  print(frequency)
+    print({"home": {"user":{"documents":{"report.txt":frequency,"project1":
+                                         {"specs.txt":frequency,"code":{"main.py":frequency}},
+                                         "project2":{"notes.txt":frequency}}},
+                                         "pictures":{"image.jpg":frequency}}})
 
-
+    # print(file_dict)
     
 
 hierarchy(file_paths)
