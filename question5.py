@@ -9,5 +9,6 @@ def is_prime(num):
         yield num
         
 
-for k in range(3,100):
-    is_prime(k)
+for k in is_prime(100):
+    print(k)
+    

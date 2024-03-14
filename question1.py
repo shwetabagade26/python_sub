@@ -2,7 +2,9 @@
 
 list1 = [1,2,3]
 list2 = [4,5,6]
-# list3 = [(list1[val],list2[val1])%2 == 0  for val in range(len(list1)) for val1 in range(list2 ) ]
+# list3 = [ (list1[i],list2[j])for i in range(len(list1) for j in range(list2) if (list1[i] + list2[j]) % 2 == 0 )]
+list3 = [(x, y) for x in list1 for y in list2 if (x + y) % 2 == 0]
+print(list3)
 list4 = [] 
 
 
